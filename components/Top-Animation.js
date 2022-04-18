@@ -1,9 +1,14 @@
 import React from 'react';
+import '../index.css';
 
 
 const TopAnimation = () => {
+    // const canvas = document.getElementsByClassName('top-animation');
+    
     return (
-        <div>Canvas Animation will go here!</div>
+        <div>
+            <canvas className='top-animation'></canvas>
+        </div>
     )
 }
 
